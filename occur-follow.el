@@ -1,8 +1,13 @@
-;;; occur-follow --- a simple addition to occur key map to add instant highlighting of occurences in context
+;;; occur-follow.el --- a simple addition to occur key map to add instant highlighting of occurences in context
 ;;
+;; Author: Jason Milkins <jasonm23@gmail.com>
+;; Version: 1.0
+
 ;;; Commentary:
-;;  A simple addition to occur-mode-map to add instant highlighting of occurences in context
-;;
+
+;; A simple addition to the occur-mode-map to add instant highlighting
+;; of occurences in context.
+
 ;;; Code:
 (define-key occur-mode-map (kbd "<down>")     ; Define the down arrow key in Occur mode.
   (lambda () (interactive)                    ; We make this an interactive command/function
